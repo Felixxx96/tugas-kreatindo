@@ -16,7 +16,7 @@ class Login extends CI_Controller
         $data = array(
             'title' => 'Login',
         );
-        $this->load->view('v_login', $data, FALSE);
+        $this->load->view('login/v_login', $data, FALSE);
     }
     public function logout()
     {
